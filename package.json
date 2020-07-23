@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Discord bot to automatically mute members not in the channel's designated game",
   "engines": {
-    "node": ">=12 <15"
+    "node": ">=12.0.0"
   },
   "main": "src/main.ts",
   "devDependencies": {
@@ -26,6 +26,7 @@
     "clean": "rimraf coverage build tmp",
     "dev": "nodemon",
     "build": "tsc -p tsconfig.release.json",
+    "gcp-build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
     "start": "node build/src/main",
     "lint": "eslint . --ext .ts,.tsx"

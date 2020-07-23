@@ -3,7 +3,7 @@ import GoogleImages from 'google-images'
 
 import storage from './storage'
 
-const client = new GoogleImages('001163065415935235450:xhocipr0-5q', 'AIzaSyC9TxSJXs-VmqgsbxDxeJQ-iu2Uhq7uajk')
+const client = new GoogleImages('001163065415935235450:xhocipr0-5q', process.env.GOOGLE_CSE_KEY)
 const EMOJI_URLS = [
 	'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/bread_1f35e.png',
 	'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/241/bread_1f35e.png',

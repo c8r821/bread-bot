@@ -123,9 +123,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:~14.0.23":
-  version: 14.0.23
-  resolution: "@types/node@npm:14.0.23"
-  checksum: 03d9e36034f592484612126733c79169da12fa9b53e12cc8aa632c86f2edc6eea0237c1e13b2f457dec36c6793bf8ee37f0da538e26e7cd1aaffdcb221fb63cf
+  version: 14.0.24
+  resolution: "@types/node@npm:14.0.24"
+  checksum: e816f2aa34ab447907af58131bcc3785164d67a6e64ae1542396ecac776611e9dc2bc700a8099251917f1804d403cbdb038c1edab43aaa82606814ef5949e0e2
   languageName: node
   linkType: hard
 
@@ -226,7 +226,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^7.2.0":
+"acorn@npm:^7.3.1":
   version: 7.3.1
   resolution: "acorn@npm:7.3.1"
   bin:
@@ -450,9 +450,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bread-mute-bot@workspace:.":
+"bread-bot@workspace:.":
   version: 0.0.0-use.local
-  resolution: "bread-mute-bot@workspace:."
+  resolution: "bread-bot@workspace:."
   dependencies:
     "@typeit/discord": ^4.0.8
     "@types/google-images": ^2.1.0
@@ -566,8 +566,8 @@ __metadata:
   linkType: hard
 
 "chokidar@npm:^3.2.2":
-  version: 3.4.0
-  resolution: "chokidar@npm:3.4.0"
+  version: 3.4.1
+  resolution: "chokidar@npm:3.4.1"
   dependencies:
     anymatch: ~3.1.1
     braces: ~3.0.2
@@ -580,7 +580,7 @@ __metadata:
   dependenciesMeta:
     fsevents:
       optional: true
-  checksum: 2c7d302cd2e7f3ce16efcdf3d4bfc6e588a0491bb1382a1202a85af3a5070b8df98208480bdd9e89aaaebbe0fb5cefe6895ddd794fa53a0aa7b7ff8c2208ce46
+  checksum: 76648ff7242a7ecebf5ff7c14a63d0654433ba9574679560a9787c192d4ecd171e295c344c795ea6ee5c60d620c65f0fbbffa472915c02a511245328b059f2b9
   languageName: node
   linkType: hard
 
@@ -986,7 +986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^1.1.0, eslint-visitor-keys@npm:^1.2.0":
+"eslint-visitor-keys@npm:^1.1.0, eslint-visitor-keys@npm:^1.2.0, eslint-visitor-keys@npm:^1.3.0":
   version: 1.3.0
   resolution: "eslint-visitor-keys@npm:1.3.0"
   checksum: e5f1026c9f2b16027e11e77e4890603a30d275936f574864a5bd52e4f265103719a8c10ab2ab33df62ddbe8c48497c3f4278de813dda5f7f1699fe2d5e2a0372
@@ -1040,13 +1040,13 @@ __metadata:
   linkType: hard
 
 "espree@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "espree@npm:7.1.0"
+  version: 7.2.0
+  resolution: "espree@npm:7.2.0"
   dependencies:
-    acorn: ^7.2.0
+    acorn: ^7.3.1
     acorn-jsx: ^5.2.0
-    eslint-visitor-keys: ^1.2.0
-  checksum: 32f5d6914dd2a27bb8e4b8610ca2ac1fd3242110a5865a1604aeec342f411479728578ba3aa2636a4199ea18029bd0acebe1e5291d357bdebc4ecb0d45efd704
+    eslint-visitor-keys: ^1.3.0
+  checksum: f71815e237b6d2d14108219062b2183642c0824b8c2334e7752d0d8f2b5c0903780a5ee16c8b6c14a8e5cefab8443eb44d8869c30337e221d4527d2070ca4fec
   languageName: node
   linkType: hard
 
@@ -2933,22 +2933,22 @@ fsevents@~2.1.2:
   linkType: hard
 
 "typescript@patch:typescript@~3.9.4#builtin<compat/typescript>":
-  version: 3.9.6
-  resolution: "typescript@patch:typescript@npm%3A3.9.6#builtin<compat/typescript>::version=3.9.6&hash=226bd1"
+  version: 3.9.7
+  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=226bd1"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 25585222cfc24e0e484d5ec0b52d44291d7baee8d68f7f1e73a459c7e22c09b785143ce1363013654f10280a09aebc7eac2db5dedd5a54fc1adf013ca80fee49
+  checksum: 9eeb9c03837f2d09b097498e2b1be0c25ab07b82fe1ebb246139c8b5ea054ff5978a9733070438a4870a8f50429af31fc6d3abc2de4937ebe2351da8a37a4457
   languageName: node
   linkType: hard
 
 typescript@~3.9.4:
-  version: 3.9.6
-  resolution: "typescript@npm:3.9.6"
+  version: 3.9.7
+  resolution: "typescript@npm:3.9.7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a39929ff0547cf7249abde6225c50f5c139554b04b94db4b34aa3229efac6e5815dffbbb16cde4594ef4e78601fdc64ade683bf7fdf3ed5bde6f34167f6b4aad
+  checksum: ebbb7512d05816cdb48ab396cf0c69444857d7e84e4fe28caadd2c9407f0c7df696992a02f6cbc24732680f4b8d0a67d6122a2136415bb925eca844fbf23e297
   languageName: node
   linkType: hard
 
