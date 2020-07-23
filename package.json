@@ -27,6 +27,7 @@
     "dev": "nodemon",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
+    "postinstall": "tsc -p tsconfig.release.json",
     "start": "node build/src/main",
     "lint": "eslint . --ext .ts,.tsx"
   },
